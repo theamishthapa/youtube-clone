@@ -17,10 +17,21 @@
         vertical-align: middle;
       }
 
+      .google {
+        width: 400px;
+      }
+
+      .logo {
+        text-align: center;
+      }
+
       .google-logo {
         width: 300px;
-        display: block;
-        margin-left: 45px;
+        text-align: center;
+      }
+
+      .google-input {
+        text-align: center;
       }
 
       .google-searchbox {
@@ -29,7 +40,8 @@
         border-radius: 25px;
         border: 1px solid gray;
         box-shadow: 1px 1px gray;
-        width: 400px;
+        width: 80%;
+        text-align: center;
       }
     </style>
   </head>
@@ -45,11 +57,17 @@
     <button class="yes">Yes</button>
     <button class="no">No</button>
 
-    <img src="Google-Logo.wine.svg" class="google-logo" />
-    <input
-      type="text"
-      class="google-searchbox"
-      placeholder="search google or type url"
-    />
+    <div class="google">
+      <div class="logo">
+        <img src="./images/Google-Logo.wine.svg" class="google-logo" />
+      </div>
+      <div class="google-input">
+        <input
+          type="text"
+          class="google-searchbox"
+          placeholder="search google or type url"
+        />
+      </div>
+    </div>
   </body>
 </html>

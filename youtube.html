@@ -11,141 +11,40 @@
       }
 
       .search-bar {
-        font-size: 20px;
-        margin-left: 12px;
+        display: block;
       }
-
-      /* .practice {
-        width: 200px;
-        margin-top: 20px;
-        border-radius: 20px;
-      }
-
-      .practice2 {
-        width: 200px;
-        height: 200px;
-        margin: 20px;
-        object-fit: cover;
-        object-position: left;
-        border: 2px solid red;
-      }
-
-      .practice3 {
-        width: 200px;
-        height: 200px;
-        margin: 20px;
-        object-fit: cover;
-        object-position: left;
-        border-radius: 1000px;
-      }
-
-      .rounded-textbox {
-        font-size: 20px;
-        margin-top: 20px;
-        border-radius: 10px;
-        padding-left: 15px;
-      }
-
-      .google-searchbox {
-        font-size: 20px;
-        margin-top: 20px;
-        border: none;
-        border-radius: 10px;
-        padding-left: 15px;
-        box-shadow: 1px 1px gray;
-      }
-
-      .linkedin-signup {
-        width: 500px;
-        border: 1px solid black;
-        text-align: center;
-      }
-
-      .email {
-        margin-bottom: 0;
-      }
-
-      .linkedin-btn {
-        border: none;
-        border-radius: 20px;
-        background-color: rgb(66, 66, 190);
-        color: white;
-        padding: 15px;
-      }
-
-      .twitter {
-        margin-top: 50px;
-        border: 2px solid black;
-        padding: 20px;
-      }
-
-      .profile-pic {
-        width: 50px;
-        height: 50px;
-        margin: 5px;
-        object-fit: cover;
-        object-position: left;
-        border-radius: 25px;
-        vertical-align: middle;
-      }
-
-      .text-box {
-        font-size: 17px;
-        vertical-align: middle;
-        padding: 5px;
-        border: none;
-      }
-
-      .twitter-btn {
-        border: none;
-        background-color: rgb(21, 178, 230);
-        color: white;
-        font-family: "Helvetica Neue", sans-serif;
-        font-weight: bold;
-        padding: 10px;
-        border-radius: 20px;
-        padding-left: 15px;
-        padding-right: 15px;
-        vertical-align: middle;
-      } */
 
       .video-title {
         width: 300px;
+      }
+
+      .video-preview {
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15px;
       }
     </style>
   </head>
   <body>
     <input class="search-bar" type="text" placeholder="Search" />
 
-    <img class="thumbnail" src="./thumbnails/thumbnail-1.webp" />
+    <div class="video-preview">
+      <img class="thumbnail" src="./thumbnails/thumbnail-1.webp" />
 
-    <p class="video-title">
-      Talking Tech and AI with Google CEO Sundar Pichai!
-    </p>
-    <p class="video-author">Marques Brownlee</p>
-    <p class="video-stats">3.4M views &#xb7; 6 months ago</p>
-
-    <!-- <img src="./thumbnails/thumbnail-1.webp" class="practice" />
-
-    <img src="./thumbnails/thumbnail-1.webp" class="practice2" />
-
-    <img src="./thumbnails/thumbnail-1.webp" class="practice3" />
-
-    <input type="text" class="rounded-textbox" placeholder="search" />
-
-    <input type="text" class="google-searchbox" placeholder="search" />
-
-    <div class="linkedin-signup">
-      <p class="email">Email</p>
-      <input class="email" type="email" />
-      <div class="terms">by clicking thsi you agree the terms</div>
-      <button class="linkedin-btn">Agree and join</button>
+      <p class="video-title">
+        Talking Tech and AI with Google CEO Sundar Pichai!
+      </p>
+      <p class="video-author">Marques Brownlee</p>
+      <p class="video-stats">3.4M views &#xb7; 6 months ago</p>
     </div>
 
-    <div class="twitter">
-      <img src="./thumbnails/thumbnail-1.webp" alt="nth" class="profile-pic" />
-      <input type="text" placeholder="what's happening?" class="text-box" />
-      <button class="twitter-btn">Tweet</button>
-    </div> -->
+    <div class="video-preview">
+      <img class="thumbnail" src="./thumbnails/thumbnail-2.webp" />
+
+      <p class="video-title">Try Not To Laugh Challenge #9!</p>
+      <p class="video-author">Markiplier</p>
+      <p class="video-stats">19M views &#xb7; 4 years ago</p>
+    </div>
   </body>
 </html>
